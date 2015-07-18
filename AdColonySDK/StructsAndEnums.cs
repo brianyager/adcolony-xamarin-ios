@@ -1,0 +1,25 @@
+﻿using System;
+using ObjCRuntime;
+
+namespace AdColonySDK
+{
+	public enum ADCOLONY_IAP_ENGAGEMENT : uint
+	{
+		ADCOLONY_IAP_ENGAGEMENT_NONE = 0,
+		ADCOLONY_IAP_ENGAGEMENT_AUTOMATIC,
+		ADCOLONY_IAP_ENGAGEMENT_END_CARD,
+		ADCOLONY_IAP_ENGAGEMENT_OVERLAY
+	}
+
+
+	public enum ADCOLONY_ZONE_STATUS : uint /* nuint */
+	{
+		_NO_ZONE = 0,
+		_OFF,
+		_LOADING,
+		_ACTIVE,
+		_UNKNOWN
+	}
+
+}
+
